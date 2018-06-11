@@ -1,5 +1,6 @@
+// obtener el app de server.js
 const app = require('./config/server.js');
-
+// obtener news.js y pasar app como parametro
 require('./app/routes/news.js')(app);
 
 //starting the server
